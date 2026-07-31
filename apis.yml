@@ -1,24 +1,78 @@
 aid: onera-acquired-by-lyniate-in-2021
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/onera-acquired-by-lyniate-in-2021.png
 name: Onera (acquired by Lyniate in 2021)
-description: 'Onera (acquired by Lyniate in 2021) is a company surfaced as a portfolio company of bain-capital-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: ai-apps. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: >-
+  Onera, Inc. was a San Francisco-based retail technology company that built a
+  real-time inventory availability and omnichannel order fulfillment platform.
+  Its "Onera Decision Engine" connected inventory events across siloed retail
+  systems into a single real-time source of inventory truth and used machine
+  learning to determine optimal fulfillment locations for orders, serving
+  retailers such as Gap, Old Navy, Torrid, rue21, and Zumiez. Founded circa
+  2014 and backed by Bain Capital Ventures and Founder's Collective, Onera was
+  acquired by supply-chain planning and optimization vendor ToolsGroup in June
+  2022, where its real-time inventory and fulfillment capabilities were folded
+  into the ToolsGroup retail platform. NOTE: the "acquired by Lyniate in 2021"
+  in this record's slug/name is incorrect harvested metadata; the verified
+  acquirer is ToolsGroup (2022). The company no longer operates a standalone
+  public developer portal or API surface.
 url: https://raw.githubusercontent.com/api-evangelist/onera-acquired-by-lyniate-in-2021/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - bain-capital-ventures
+- founders-collective
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: toolsgroup
+x-acquired-date: '2022-06'
+x-metadata-correction: >-
+  Slug/name says "acquired by Lyniate in 2021" but the verified acquirer is
+  ToolsGroup (June 2022). Lyniate is a separate healthcare-interoperability
+  vendor and never acquired this company.
+x-enrichment-note: >-
+  Searched pass 2026-07-20: verified company identity and acquisition; no live
+  public API, developer portal, OpenAPI, packages, MCP, or /.well-known surface
+  survives post-acquisition (onera.com is parked). No API artifacts to harvest.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-- Ai Apps
+- Retail
+- Supply Chain
+- Inventory
+- Order Management
+- Omnichannel
+- E-Commerce
+- Machine Learning
+- Acquired
 apis: []
+common:
+- type: Website
+  url: https://www.toolsgroup.com
+  name: ToolsGroup (successor / acquirer)
+- type: CompanyProfile
+  url: https://www.crunchbase.com/organization/Onera
+  name: Onera on Crunchbase
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
