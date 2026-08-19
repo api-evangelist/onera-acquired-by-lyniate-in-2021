@@ -45,7 +45,7 @@ x-enrichment-note: >-
   Searched pass 2026-07-20: verified company identity and acquisition; no live
   public API, developer portal, OpenAPI, packages, MCP, or /.well-known surface
   survives post-acquisition (onera.com is parked). No API artifacts to harvest.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
